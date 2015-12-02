@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>navigator.connection.type Example</title>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    document.addEventListener("deviceready", onDeviceReady, false);
+     /*document.addEventListener("onLine", onLineEvent, false);
+     document.addEventListener("offLine", onDeviceoffLineEvent, false);*/
+    function onDeviceReady(){
+       alert(JSON.stringify(navigator.connection.type));
+    }
+   /* function onLineEvent(){
+        alert(JSON.stringify(navigator.connection.type));
+        alert"(Device is OnLine");
+    }
+    function onDeviceoffLineEvent(){
+        alert"(Device is OffLine");
+    }*/
+
+    </script>
+  </head>
+  <body>
+  <h1>Hello</h1>
+  </body>
+
+</html>

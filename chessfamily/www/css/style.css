@@ -161,3 +161,42 @@ input:-moz-placeholder { font-size: 10pt; color: #555; }
     margin-bottom: 20px;
     
 }
+.select_event{
+	background-color: #592e1d;
+	color: #fff;
+}
+.x{
+	color: #592e1d;
+}
+.event_find{
+	padding-top: 85px;
+	padding-left: 38px;
+	padding-bottom: 63px;
+}
+.event_find_bg{
+	background-color: #f1d6a1;
+}
+.table_distance{
+	padding-right: 20px;
+}
+.table_event{
+	padding-right: 7px;
+}
+.table_activity{
+	padding-right: 32px;
+}
+.table_genre{
+	padding-right: 14px;
+}
+.button_event{
+	margin-top: 50px;
+	width: 150px;
+	height: 35px;
+	background-color: #965a36;
+	color: #fff;
+	border: 0px
+}
+.displaykm{
+	display: -webkit-box;
+    padding-right: 10px;
+}

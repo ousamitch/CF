@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Flat Slider Demos</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="slider.js"></script>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="slider.css">
+
+<body>
+
+
+
+<h2>Range Slider</h2>
+
+<input type="hidden" id="slider_range" class="flat-slider" />
+<script>
+	jQuery(function() {
+		jQuery( "#slider_range" ).flatslider({
+			min: 10000, max: 500000,
+			step: 1000,
+			values: [45000, 130000],
+			range: true,
+			einheit: '&euro;'
+		});
+	});
+</script>
+
+
+</body>
+</html>
